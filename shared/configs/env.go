@@ -3,7 +3,7 @@ package configs
 import (
 	"os"
 
-	"github.com/kamontat/fthelper/shared/maps"
+	"github.com/frysee/fthelper/shared/maps"
 )
 
 // Return map of string, client will decide how to parse string data

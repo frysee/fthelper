@@ -57,8 +57,8 @@ dockers:
     use: buildx
     dockerfile: generator/docker/Dockerfile.busybox
     image_templates:
-      - "ghcr.io/kamontat/ftgenerator:amd64"
-      - "ghcr.io/kamontat/ftgenerator:{{ .Tag }}-amd64"
+      - "ghcr.io/frysee/ftgenerator:amd64"
+      - "ghcr.io/frysee/ftgenerator:{{ .Tag }}-amd64"
     build_flag_templates:
       - "--pull"
       - "--label=org.opencontainers.image.title=ftgenerator"
@@ -79,8 +79,8 @@ dockers:
     use: buildx
     dockerfile: generator/docker/Dockerfile.stratch
     image_templates:
-      - "ghcr.io/kamontat/ftgenerator:amd64-stratch"
-      - "ghcr.io/kamontat/ftgenerator:{{ .Tag }}-amd64-stratch"
+      - "ghcr.io/frysee/ftgenerator:amd64-stratch"
+      - "ghcr.io/frysee/ftgenerator:{{ .Tag }}-amd64-stratch"
     build_flag_templates:
       - "--pull"
       - "--label=org.opencontainers.image.title=ftgenerator"
@@ -101,8 +101,8 @@ dockers:
     use: buildx
     dockerfile: generator/docker/Dockerfile.busybox
     image_templates:
-      - "ghcr.io/kamontat/ftgenerator:arm64"
-      - "ghcr.io/kamontat/ftgenerator:{{ .Tag }}-arm64"
+      - "ghcr.io/frysee/ftgenerator:arm64"
+      - "ghcr.io/frysee/ftgenerator:{{ .Tag }}-arm64"
     build_flag_templates:
       - "--pull"
       - "--label=org.opencontainers.image.title=ftgenerator"
@@ -123,8 +123,8 @@ dockers:
     use: buildx
     dockerfile: generator/docker/Dockerfile.stratch
     image_templates:
-      - "ghcr.io/kamontat/ftgenerator:arm64-stratch"
-      - "ghcr.io/kamontat/ftgenerator:{{ .Tag }}-arm64-stratch"
+      - "ghcr.io/frysee/ftgenerator:arm64-stratch"
+      - "ghcr.io/frysee/ftgenerator:{{ .Tag }}-arm64-stratch"
     build_flag_templates:
       - "--pull"
       - "--label=org.opencontainers.image.title=ftgenerator"
@@ -146,8 +146,8 @@ dockers:
     use: buildx
     dockerfile: generator/docker/Dockerfile.busybox
     image_templates:
-      - "ghcr.io/kamontat/ftgenerator:armv6"
-      - "ghcr.io/kamontat/ftgenerator:{{ .Tag }}-armv6"
+      - "ghcr.io/frysee/ftgenerator:armv6"
+      - "ghcr.io/frysee/ftgenerator:{{ .Tag }}-armv6"
     build_flag_templates:
       - "--pull"
       - "--label=org.opencontainers.image.title=ftgenerator"
@@ -169,8 +169,8 @@ dockers:
     use: buildx
     dockerfile: generator/docker/Dockerfile.stratch
     image_templates:
-      - "ghcr.io/kamontat/ftgenerator:armv6-stratch"
-      - "ghcr.io/kamontat/ftgenerator:{{ .Tag }}-armv6-stratch"
+      - "ghcr.io/frysee/ftgenerator:armv6-stratch"
+      - "ghcr.io/frysee/ftgenerator:{{ .Tag }}-armv6-stratch"
     build_flag_templates:
       - "--pull"
       - "--label=org.opencontainers.image.title=ftgenerator"
@@ -192,8 +192,8 @@ dockers:
     use: buildx
     dockerfile: generator/docker/Dockerfile.busybox
     image_templates:
-      - "ghcr.io/kamontat/ftgenerator:armv7"
-      - "ghcr.io/kamontat/ftgenerator:{{ .Tag }}-armv7"
+      - "ghcr.io/frysee/ftgenerator:armv7"
+      - "ghcr.io/frysee/ftgenerator:{{ .Tag }}-armv7"
     build_flag_templates:
       - "--pull"
       - "--label=org.opencontainers.image.title=ftgenerator"
@@ -215,8 +215,8 @@ dockers:
     use: buildx
     dockerfile: generator/docker/Dockerfile.stratch
     image_templates:
-      - "ghcr.io/kamontat/ftgenerator:armv7-stratch"
-      - "ghcr.io/kamontat/ftgenerator:{{ .Tag }}-armv7-stratch"
+      - "ghcr.io/frysee/ftgenerator:armv7-stratch"
+      - "ghcr.io/frysee/ftgenerator:{{ .Tag }}-armv7-stratch"
     build_flag_templates:
       - "--pull"
       - "--label=org.opencontainers.image.title=ftgenerator"
@@ -238,8 +238,8 @@ dockers:
     use: buildx
     dockerfile: metric/docker/Dockerfile.busybox
     image_templates:
-      - "ghcr.io/kamontat/ftmetric:amd64"
-      - "ghcr.io/kamontat/ftmetric:{{ .Tag }}-amd64"
+      - "ghcr.io/frysee/ftmetric:amd64"
+      - "ghcr.io/frysee/ftmetric:{{ .Tag }}-amd64"
     build_flag_templates:
       - "--pull"
       - "--label=org.opencontainers.image.title=ftmetric"
@@ -260,8 +260,8 @@ dockers:
     use: buildx
     dockerfile: metric/docker/Dockerfile.stratch
     image_templates:
-      - "ghcr.io/kamontat/ftmetric:amd64-stratch"
-      - "ghcr.io/kamontat/ftmetric:{{ .Tag }}-amd64-stratch"
+      - "ghcr.io/frysee/ftmetric:amd64-stratch"
+      - "ghcr.io/frysee/ftmetric:{{ .Tag }}-amd64-stratch"
     build_flag_templates:
       - "--pull"
       - "--label=org.opencontainers.image.title=ftmetric"
@@ -282,8 +282,8 @@ dockers:
     use: buildx
     dockerfile: metric/docker/Dockerfile.busybox
     image_templates:
-      - "ghcr.io/kamontat/ftmetric:arm64"
-      - "ghcr.io/kamontat/ftmetric:{{ .Tag }}-arm64"
+      - "ghcr.io/frysee/ftmetric:arm64"
+      - "ghcr.io/frysee/ftmetric:{{ .Tag }}-arm64"
     build_flag_templates:
       - "--pull"
       - "--label=org.opencontainers.image.title=ftmetric"
@@ -304,8 +304,8 @@ dockers:
     use: buildx
     dockerfile: metric/docker/Dockerfile.stratch
     image_templates:
-      - "ghcr.io/kamontat/ftmetric:arm64-stratch"
-      - "ghcr.io/kamontat/ftmetric:{{ .Tag }}-arm64-stratch"
+      - "ghcr.io/frysee/ftmetric:arm64-stratch"
+      - "ghcr.io/frysee/ftmetric:{{ .Tag }}-arm64-stratch"
     build_flag_templates:
       - "--pull"
       - "--label=org.opencontainers.image.title=ftmetric"
@@ -327,8 +327,8 @@ dockers:
     use: buildx
     dockerfile: metric/docker/Dockerfile.busybox
     image_templates:
-      - "ghcr.io/kamontat/ftmetric:armv6"
-      - "ghcr.io/kamontat/ftmetric:{{ .Tag }}-armv6"
+      - "ghcr.io/frysee/ftmetric:armv6"
+      - "ghcr.io/frysee/ftmetric:{{ .Tag }}-armv6"
     build_flag_templates:
       - "--pull"
       - "--label=org.opencontainers.image.title=ftmetric"
@@ -350,8 +350,8 @@ dockers:
     use: buildx
     dockerfile: metric/docker/Dockerfile.stratch
     image_templates:
-      - "ghcr.io/kamontat/ftmetric:armv6-stratch"
-      - "ghcr.io/kamontat/ftmetric:{{ .Tag }}-armv6-stratch"
+      - "ghcr.io/frysee/ftmetric:armv6-stratch"
+      - "ghcr.io/frysee/ftmetric:{{ .Tag }}-armv6-stratch"
     build_flag_templates:
       - "--pull"
       - "--label=org.opencontainers.image.title=ftmetric"
@@ -373,8 +373,8 @@ dockers:
     use: buildx
     dockerfile: metric/docker/Dockerfile.busybox
     image_templates:
-      - "ghcr.io/kamontat/ftmetric:armv7"
-      - "ghcr.io/kamontat/ftmetric:{{ .Tag }}-armv7"
+      - "ghcr.io/frysee/ftmetric:armv7"
+      - "ghcr.io/frysee/ftmetric:{{ .Tag }}-armv7"
     build_flag_templates:
       - "--pull"
       - "--label=org.opencontainers.image.title=ftmetric"
@@ -396,8 +396,8 @@ dockers:
     use: buildx
     dockerfile: metric/docker/Dockerfile.stratch
     image_templates:
-      - "ghcr.io/kamontat/ftmetric:armv7-stratch"
-      - "ghcr.io/kamontat/ftmetric:{{ .Tag }}-armv7-stratch"
+      - "ghcr.io/frysee/ftmetric:armv7-stratch"
+      - "ghcr.io/frysee/ftmetric:{{ .Tag }}-armv7-stratch"
     build_flag_templates:
       - "--pull"
       - "--label=org.opencontainers.image.title=ftmetric"
@@ -412,55 +412,55 @@ dockers:
       - metric/configs
 
 docker_manifests:
-  - name_template: ghcr.io/kamontat/ftgenerator:{{ .Tag }}
+  - name_template: ghcr.io/frysee/ftgenerator:{{ .Tag }}
     image_templates:
-      - ghcr.io/kamontat/ftgenerator:{{ .Tag }}-amd64
-      - ghcr.io/kamontat/ftgenerator:{{ .Tag }}-arm64
-      - ghcr.io/kamontat/ftgenerator:{{ .Tag }}-armv6
-      - ghcr.io/kamontat/ftgenerator:{{ .Tag }}-armv7
-  - name_template: ghcr.io/kamontat/ftgenerator:latest
+      - ghcr.io/frysee/ftgenerator:{{ .Tag }}-amd64
+      - ghcr.io/frysee/ftgenerator:{{ .Tag }}-arm64
+      - ghcr.io/frysee/ftgenerator:{{ .Tag }}-armv6
+      - ghcr.io/frysee/ftgenerator:{{ .Tag }}-armv7
+  - name_template: ghcr.io/frysee/ftgenerator:latest
     image_templates:
-      - ghcr.io/kamontat/ftgenerator:amd64
-      - ghcr.io/kamontat/ftgenerator:arm64
-      - ghcr.io/kamontat/ftgenerator:armv6
-      - ghcr.io/kamontat/ftgenerator:armv7
-  - name_template: ghcr.io/kamontat/ftgenerator:{{ .Tag }}-stratch
+      - ghcr.io/frysee/ftgenerator:amd64
+      - ghcr.io/frysee/ftgenerator:arm64
+      - ghcr.io/frysee/ftgenerator:armv6
+      - ghcr.io/frysee/ftgenerator:armv7
+  - name_template: ghcr.io/frysee/ftgenerator:{{ .Tag }}-stratch
     image_templates:
-      - ghcr.io/kamontat/ftgenerator:{{ .Tag }}-amd64-stratch
-      - ghcr.io/kamontat/ftgenerator:{{ .Tag }}-arm64-stratch
-      - ghcr.io/kamontat/ftgenerator:{{ .Tag }}-armv6-stratch
-      - ghcr.io/kamontat/ftgenerator:{{ .Tag }}-armv7-stratch
-  - name_template: ghcr.io/kamontat/ftgenerator:stratch
+      - ghcr.io/frysee/ftgenerator:{{ .Tag }}-amd64-stratch
+      - ghcr.io/frysee/ftgenerator:{{ .Tag }}-arm64-stratch
+      - ghcr.io/frysee/ftgenerator:{{ .Tag }}-armv6-stratch
+      - ghcr.io/frysee/ftgenerator:{{ .Tag }}-armv7-stratch
+  - name_template: ghcr.io/frysee/ftgenerator:stratch
     image_templates:
-      - ghcr.io/kamontat/ftgenerator:amd64-stratch
-      - ghcr.io/kamontat/ftgenerator:arm64-stratch
-      - ghcr.io/kamontat/ftgenerator:armv6-stratch
-      - ghcr.io/kamontat/ftgenerator:armv7-stratch
+      - ghcr.io/frysee/ftgenerator:amd64-stratch
+      - ghcr.io/frysee/ftgenerator:arm64-stratch
+      - ghcr.io/frysee/ftgenerator:armv6-stratch
+      - ghcr.io/frysee/ftgenerator:armv7-stratch
 
-  - name_template: ghcr.io/kamontat/ftmetric:{{ .Tag }}
+  - name_template: ghcr.io/frysee/ftmetric:{{ .Tag }}
     image_templates:
-      - ghcr.io/kamontat/ftmetric:{{ .Tag }}-amd64
-      - ghcr.io/kamontat/ftmetric:{{ .Tag }}-arm64
-      - ghcr.io/kamontat/ftmetric:{{ .Tag }}-armv6
-      - ghcr.io/kamontat/ftmetric:{{ .Tag }}-armv7
-  - name_template: ghcr.io/kamontat/ftmetric:latest
+      - ghcr.io/frysee/ftmetric:{{ .Tag }}-amd64
+      - ghcr.io/frysee/ftmetric:{{ .Tag }}-arm64
+      - ghcr.io/frysee/ftmetric:{{ .Tag }}-armv6
+      - ghcr.io/frysee/ftmetric:{{ .Tag }}-armv7
+  - name_template: ghcr.io/frysee/ftmetric:latest
     image_templates:
-      - ghcr.io/kamontat/ftmetric:amd64
-      - ghcr.io/kamontat/ftmetric:arm64
-      - ghcr.io/kamontat/ftmetric:armv6
-      - ghcr.io/kamontat/ftmetric:armv7
-  - name_template: ghcr.io/kamontat/ftmetric:{{ .Tag }}-stratch
+      - ghcr.io/frysee/ftmetric:amd64
+      - ghcr.io/frysee/ftmetric:arm64
+      - ghcr.io/frysee/ftmetric:armv6
+      - ghcr.io/frysee/ftmetric:armv7
+  - name_template: ghcr.io/frysee/ftmetric:{{ .Tag }}-stratch
     image_templates:
-      - ghcr.io/kamontat/ftmetric:{{ .Tag }}-amd64-stratch
-      - ghcr.io/kamontat/ftmetric:{{ .Tag }}-arm64-stratch
-      - ghcr.io/kamontat/ftmetric:{{ .Tag }}-armv6-stratch
-      - ghcr.io/kamontat/ftmetric:{{ .Tag }}-armv7-stratch
-  - name_template: ghcr.io/kamontat/ftmetric:stratch
+      - ghcr.io/frysee/ftmetric:{{ .Tag }}-amd64-stratch
+      - ghcr.io/frysee/ftmetric:{{ .Tag }}-arm64-stratch
+      - ghcr.io/frysee/ftmetric:{{ .Tag }}-armv6-stratch
+      - ghcr.io/frysee/ftmetric:{{ .Tag }}-armv7-stratch
+  - name_template: ghcr.io/frysee/ftmetric:stratch
     image_templates:
-      - ghcr.io/kamontat/ftmetric:amd64-stratch
-      - ghcr.io/kamontat/ftmetric:arm64-stratch
-      - ghcr.io/kamontat/ftmetric:armv6-stratch
-      - ghcr.io/kamontat/ftmetric:armv7-stratch
+      - ghcr.io/frysee/ftmetric:amd64-stratch
+      - ghcr.io/frysee/ftmetric:arm64-stratch
+      - ghcr.io/frysee/ftmetric:armv6-stratch
+      - ghcr.io/frysee/ftmetric:armv7-stratch
 
 release:
   draft: false

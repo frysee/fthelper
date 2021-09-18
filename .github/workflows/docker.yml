@@ -41,7 +41,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: ghcr.io/kamontat/freqtrade
+          images: ghcr.io/frysee/freqtrade
           tags: |
             type=ref,prefix=,suffix=_pg,event=branch
             type=schedule,suffix=_pg,pattern={{date 'YYYYMMDD'}}

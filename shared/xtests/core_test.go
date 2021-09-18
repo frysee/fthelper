@@ -3,7 +3,7 @@ package xtests_test
 import (
 	"testing"
 
-	"github.com/kamontat/fthelper/shared/xtests"
+	"github.com/frysee/fthelper/shared/xtests"
 )
 
 func TestXTest(t *testing.T) {

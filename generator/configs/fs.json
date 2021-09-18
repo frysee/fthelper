@@ -1,4 +1,4 @@
 {
-  "$schema": "https://raw.githubusercontent.com/kamontat/fthelper/main/generator/schema/fs.json",
+  "$schema": "https://raw.githubusercontent.com/frysee/fthelper/main/generator/schema/fs.json",
   "fs": {}
 }

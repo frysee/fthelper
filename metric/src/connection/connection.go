@@ -3,9 +3,9 @@ package connection
 import (
 	"fmt"
 
-	"github.com/kamontat/fthelper/metric/v4/src/clients"
-	"github.com/kamontat/fthelper/shared/configs"
-	"github.com/kamontat/fthelper/shared/maps"
+	"github.com/frysee/fthelper/metric/v4/src/clients"
+	"github.com/frysee/fthelper/shared/configs"
+	"github.com/frysee/fthelper/shared/maps"
 )
 
 type Connection struct {

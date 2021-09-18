@@ -1,9 +1,9 @@
 package plugins
 
 import (
-	"github.com/kamontat/fthelper/shared/commandline/hooks"
-	"github.com/kamontat/fthelper/shared/loggers"
-	"github.com/kamontat/fthelper/shared/maps"
+	"github.com/frysee/fthelper/shared/commandline/hooks"
+	"github.com/frysee/fthelper/shared/loggers"
+	"github.com/frysee/fthelper/shared/maps"
 )
 
 // SupportBanner will create application info banner

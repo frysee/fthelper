@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/kamontat/fthelper/metric/v4/src/collectors"
-	"github.com/kamontat/fthelper/metric/v4/src/connection"
-	"github.com/kamontat/fthelper/metric/v4/src/metrics"
-	"github.com/kamontat/fthelper/metric/v4/src/routes"
-	"github.com/kamontat/fthelper/shared/commandline/commands"
+	"github.com/frysee/fthelper/metric/v4/src/collectors"
+	"github.com/frysee/fthelper/metric/v4/src/connection"
+	"github.com/frysee/fthelper/metric/v4/src/metrics"
+	"github.com/frysee/fthelper/metric/v4/src/routes"
+	"github.com/frysee/fthelper/shared/commandline/commands"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )

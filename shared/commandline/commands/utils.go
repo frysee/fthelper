@@ -1,7 +1,7 @@
 package commands
 
 import (
-	"github.com/kamontat/fthelper/shared/maps"
+	"github.com/frysee/fthelper/shared/maps"
 )
 
 func getName(commands, args []string, config maps.Mapper) (string, []string) {

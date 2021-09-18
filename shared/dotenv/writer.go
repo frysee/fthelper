@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/kamontat/fthelper/shared/fs"
+	"github.com/frysee/fthelper/shared/fs"
 )
 
 // Marshal outputs the given environment as a dotenv-formatted environment file.

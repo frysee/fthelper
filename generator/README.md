@@ -4,7 +4,7 @@ Only require data is json configs file that contains `generators` field.
 
 ```json
 {
-  "$schema": "https://raw.githubusercontent.com/kamontat/fthelper/main/generator/schema/generator.json",
+  "$schema": "https://raw.githubusercontent.com/frysee/fthelper/main/generator/schema/generator.json",
   "generators": []
 }
 ```

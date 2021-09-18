@@ -3,10 +3,10 @@ package freqtrade
 import (
 	"time"
 
-	"github.com/kamontat/fthelper/metric/v4/src/aggregators"
-	"github.com/kamontat/fthelper/metric/v4/src/connection"
-	"github.com/kamontat/fthelper/shared/caches"
-	"github.com/kamontat/fthelper/shared/datatype"
+	"github.com/frysee/fthelper/metric/v4/src/aggregators"
+	"github.com/frysee/fthelper/metric/v4/src/connection"
+	"github.com/frysee/fthelper/shared/caches"
+	"github.com/frysee/fthelper/shared/datatype"
 )
 
 const SCHEDULER_PERF_CONST = "schedule_perf"

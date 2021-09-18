@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/kamontat/fthelper/shared/maps"
+	"github.com/frysee/fthelper/shared/maps"
 )
 
 type Manager struct {

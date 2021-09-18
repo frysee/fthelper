@@ -3,7 +3,7 @@ package dotenv
 import (
 	"strings"
 
-	"github.com/kamontat/fthelper/shared/fs"
+	"github.com/frysee/fthelper/shared/fs"
 )
 
 // Load will read your env file(s) and load them into ENV for this process.

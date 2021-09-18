@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/kamontat/fthelper/shared/maps"
+	"github.com/frysee/fthelper/shared/maps"
 )
 
 type Query struct {

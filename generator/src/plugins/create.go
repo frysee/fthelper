@@ -1,11 +1,11 @@
 package plugins
 
 import (
-	"github.com/kamontat/fthelper/generator/v4/src/clusters"
-	"github.com/kamontat/fthelper/shared/errors"
-	"github.com/kamontat/fthelper/shared/fs"
-	"github.com/kamontat/fthelper/shared/maps"
-	"github.com/kamontat/fthelper/shared/runners"
+	"github.com/frysee/fthelper/generator/v4/src/clusters"
+	"github.com/frysee/fthelper/shared/errors"
+	"github.com/frysee/fthelper/shared/fs"
+	"github.com/frysee/fthelper/shared/maps"
+	"github.com/frysee/fthelper/shared/runners"
 )
 
 func Create(data maps.Mapper, config maps.Mapper) *runners.Runner {

@@ -1,8 +1,8 @@
 package commands
 
 import (
-	"github.com/kamontat/fthelper/shared/commandline/flags"
-	"github.com/kamontat/fthelper/shared/maps"
+	"github.com/frysee/fthelper/shared/commandline/flags"
+	"github.com/frysee/fthelper/shared/maps"
 )
 
 type Command struct {

@@ -13,7 +13,7 @@
       "name": "ftmetric",
       "port": 8090,
       "image": {
-        "name": "ghcr.io/kamontat/ftmetric",
+        "name": "ghcr.io/frysee/ftmetric",
         "tag": ""
       }
     },

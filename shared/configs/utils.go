@@ -3,7 +3,7 @@ package configs
 import (
 	"strings"
 
-	"github.com/kamontat/fthelper/shared/maps"
+	"github.com/frysee/fthelper/shared/maps"
 )
 
 func ParseOverride(str string) (key, value string, ok bool) {

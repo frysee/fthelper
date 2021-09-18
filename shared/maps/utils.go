@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/kamontat/fthelper/shared/datatype"
-	"github.com/kamontat/fthelper/shared/utils"
+	"github.com/frysee/fthelper/shared/datatype"
+	"github.com/frysee/fthelper/shared/utils"
 )
 
 func Get(m map[string]interface{}, key string) (interface{}, error) {

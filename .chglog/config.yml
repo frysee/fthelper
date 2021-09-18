@@ -2,7 +2,7 @@ style: github
 template: CHANGELOG.tpl.md
 info:
   title: CHANGELOG
-  repository_url: https://github.com/kamontat/fthelper
+  repository_url: https://github.com/frysee/fthelper
 options:
   commits:
     filters:

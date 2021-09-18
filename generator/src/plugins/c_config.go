@@ -3,11 +3,11 @@ package plugins
 import (
 	"strings"
 
-	"github.com/kamontat/fthelper/generator/v4/src/clusters"
-	"github.com/kamontat/fthelper/shared/configs"
-	"github.com/kamontat/fthelper/shared/fs"
-	"github.com/kamontat/fthelper/shared/maps"
-	"github.com/kamontat/fthelper/shared/runners"
+	"github.com/frysee/fthelper/generator/v4/src/clusters"
+	"github.com/frysee/fthelper/shared/configs"
+	"github.com/frysee/fthelper/shared/fs"
+	"github.com/frysee/fthelper/shared/maps"
+	"github.com/frysee/fthelper/shared/runners"
 )
 
 // TODO: support override config from environment variable

@@ -4,8 +4,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/kamontat/fthelper/shared/datatype"
-	"github.com/kamontat/fthelper/shared/utils"
+	"github.com/frysee/fthelper/shared/datatype"
+	"github.com/frysee/fthelper/shared/utils"
 )
 
 func join(input ...interface{}) string {

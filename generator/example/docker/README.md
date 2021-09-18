@@ -8,7 +8,7 @@ docker run --rm -it \
   -v "$PWD/configs:/fth/configs" \
   -v "$PWD/templates:/fth/templates" \
   -v "$PWD/output:/fth/output" \
-  "ghcr.io/kamontat/ftgenerator" \
+  "ghcr.io/frysee/ftgenerator" \
   --clusters 1A --clusters 2A
 ```
 

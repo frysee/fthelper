@@ -12,7 +12,7 @@ I provide 2 ways to run server. Either by docker image or download compiled scri
 
 ### Docker
 
-Docker images are published to Github [packages](https://github.com/kamontat/fthelper/pkgs/container/ftmetric).
+Docker images are published to Github [packages](https://github.com/frysee/fthelper/pkgs/container/ftmetric).
 
 Each version will publish 2 tag name `<version>` and `<version>-scratch` as well as dynamic version `latest` and `scratch`.
 
@@ -21,7 +21,7 @@ Each version will publish 2 tag name `<version>` and `<version>-scratch` as well
 
 ### Compiled scripts
 
-You will found compiled script for your os in [Release](https://github.com/kamontat/fthelper/releases) tab.
+You will found compiled script for your os in [Release](https://github.com/frysee/fthelper/releases) tab.
 
 ## Setup
 

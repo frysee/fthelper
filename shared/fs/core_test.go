@@ -3,8 +3,8 @@ package fs_test
 import (
 	"testing"
 
-	"github.com/kamontat/fthelper/shared/fs"
-	"github.com/kamontat/fthelper/shared/maps"
+	"github.com/frysee/fthelper/shared/fs"
+	"github.com/frysee/fthelper/shared/maps"
 )
 
 func TestCore(t *testing.T) {

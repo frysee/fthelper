@@ -6,9 +6,9 @@ import (
 
 	"github.com/jackc/pgx/v4"
 	"github.com/jackc/pgx/v4/pgxpool"
-	"github.com/kamontat/fthelper/shared/loggers"
-	"github.com/kamontat/fthelper/shared/maps"
-	"github.com/kamontat/fthelper/shared/utils"
+	"github.com/frysee/fthelper/shared/loggers"
+	"github.com/frysee/fthelper/shared/maps"
+	"github.com/frysee/fthelper/shared/utils"
 )
 
 type Database struct {

@@ -3,9 +3,9 @@ package plugins
 import (
 	"fmt"
 
-	"github.com/kamontat/fthelper/shared/commandline/flags"
-	"github.com/kamontat/fthelper/shared/configs"
-	"github.com/kamontat/fthelper/shared/maps"
+	"github.com/frysee/fthelper/shared/commandline/flags"
+	"github.com/frysee/fthelper/shared/configs"
+	"github.com/frysee/fthelper/shared/maps"
 )
 
 // SupportFSVar will add --fsvar "<name>=<value>" for assign data to fs.variables

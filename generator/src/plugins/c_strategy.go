@@ -1,11 +1,11 @@
 package plugins
 
 import (
-	"github.com/kamontat/fthelper/generator/v4/src/clusters"
-	"github.com/kamontat/fthelper/shared/fs"
-	"github.com/kamontat/fthelper/shared/maps"
-	"github.com/kamontat/fthelper/shared/runners"
-	"github.com/kamontat/fthelper/shared/xtemplates"
+	"github.com/frysee/fthelper/generator/v4/src/clusters"
+	"github.com/frysee/fthelper/shared/fs"
+	"github.com/frysee/fthelper/shared/maps"
+	"github.com/frysee/fthelper/shared/runners"
+	"github.com/frysee/fthelper/shared/xtemplates"
 )
 
 // CStrategy is custom plugins for and only for freqtrade strategy

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"text/template"
 
-	"github.com/kamontat/fthelper/shared/maps"
+	"github.com/frysee/fthelper/shared/maps"
 )
 
 func byCluster(config maps.Mapper, clusterName string, configPath string) (interface{}, error) {

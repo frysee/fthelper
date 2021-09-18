@@ -3,7 +3,7 @@ package loggers
 import (
 	"os"
 
-	"github.com/kamontat/fthelper/shared/utils"
+	"github.com/frysee/fthelper/shared/utils"
 )
 
 var level LoggerLevel = INFO

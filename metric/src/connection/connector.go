@@ -1,6 +1,6 @@
 package connection
 
-import "github.com/kamontat/fthelper/shared/errors"
+import "github.com/frysee/fthelper/shared/errors"
 
 // Connector is a high level aggregated data from connection
 type Connector interface {

@@ -6,9 +6,9 @@ import (
 	"path"
 	"strings"
 
-	"github.com/kamontat/fthelper/shared/datatype"
-	"github.com/kamontat/fthelper/shared/maps"
-	"github.com/kamontat/fthelper/shared/xtemplates"
+	"github.com/frysee/fthelper/shared/datatype"
+	"github.com/frysee/fthelper/shared/maps"
+	"github.com/frysee/fthelper/shared/xtemplates"
 )
 
 func toPaths(path string) []string {

@@ -3,7 +3,7 @@ package fs
 import (
 	"os"
 
-	"github.com/kamontat/fthelper/shared/loggers"
+	"github.com/frysee/fthelper/shared/loggers"
 )
 
 type Type string

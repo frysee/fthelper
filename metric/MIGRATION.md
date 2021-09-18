@@ -30,5 +30,5 @@
 - Change several option name (checking from `ftmetric --help`)
 - Change metric name from `ftpersonal_` to `fthelper_`
 - Change docker registry from DockerHub to Github Packages
-- Update image name from `kamontat/ftmetric` to `ghcr.io/kamontat/ftmetric`
+- Update image name from `frysee/ftmetric` to `ghcr.io/frysee/ftmetric`
 - @deprecated --list-config, use `ftmetric config` instead

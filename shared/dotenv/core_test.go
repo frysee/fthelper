@@ -3,8 +3,8 @@ package dotenv_test
 import (
 	"testing"
 
-	"github.com/kamontat/fthelper/shared/dotenv"
-	"github.com/kamontat/fthelper/shared/xtests"
+	"github.com/frysee/fthelper/shared/dotenv"
+	"github.com/frysee/fthelper/shared/xtests"
 )
 
 func TestReader(t *testing.T) {

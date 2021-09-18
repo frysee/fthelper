@@ -6,7 +6,7 @@ This example will show how to copy file from `A` directory to `B` directory usin
 docker run --rm -it \
   -v "$PWD/configs:/fth/configs" \
   -v "$PWD/A:/fth/A" -v "$PWD/B:/fth/B" \
-  "ghcr.io/kamontat/ftgenerator"
+  "ghcr.io/frysee/ftgenerator"
 ```
 
 ## Description

@@ -1,10 +1,10 @@
 package plugins
 
 import (
-	"github.com/kamontat/fthelper/shared/commandline/flags"
-	"github.com/kamontat/fthelper/shared/commandline/hooks"
-	"github.com/kamontat/fthelper/shared/loggers"
-	"github.com/kamontat/fthelper/shared/maps"
+	"github.com/frysee/fthelper/shared/commandline/flags"
+	"github.com/frysee/fthelper/shared/commandline/hooks"
+	"github.com/frysee/fthelper/shared/loggers"
+	"github.com/frysee/fthelper/shared/maps"
 )
 
 func SupportLogLevel(p *PluginParameter) error {

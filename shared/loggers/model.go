@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kamontat/fthelper/shared/errors"
-	"github.com/kamontat/fthelper/shared/utils"
+	"github.com/frysee/fthelper/shared/errors"
+	"github.com/frysee/fthelper/shared/utils"
 )
 
 type Logger struct {

@@ -3,7 +3,7 @@ package models
 import (
 	"fmt"
 
-	"github.com/kamontat/fthelper/shared/maps"
+	"github.com/frysee/fthelper/shared/maps"
 )
 
 type Metadata struct {

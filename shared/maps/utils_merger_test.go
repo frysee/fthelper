@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/kamontat/fthelper/shared/maps"
+	"github.com/frysee/fthelper/shared/maps"
 )
 
 type TestCase struct {

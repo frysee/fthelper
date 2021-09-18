@@ -1,14 +1,14 @@
 package commandline
 
 import (
-	"github.com/kamontat/fthelper/shared/caches"
-	"github.com/kamontat/fthelper/shared/commandline/commands"
-	"github.com/kamontat/fthelper/shared/commandline/flags"
-	"github.com/kamontat/fthelper/shared/commandline/hooks"
-	"github.com/kamontat/fthelper/shared/commandline/models"
-	"github.com/kamontat/fthelper/shared/commandline/plugins"
-	"github.com/kamontat/fthelper/shared/loggers"
-	"github.com/kamontat/fthelper/shared/maps"
+	"github.com/frysee/fthelper/shared/caches"
+	"github.com/frysee/fthelper/shared/commandline/commands"
+	"github.com/frysee/fthelper/shared/commandline/flags"
+	"github.com/frysee/fthelper/shared/commandline/hooks"
+	"github.com/frysee/fthelper/shared/commandline/models"
+	"github.com/frysee/fthelper/shared/commandline/plugins"
+	"github.com/frysee/fthelper/shared/loggers"
+	"github.com/frysee/fthelper/shared/maps"
 )
 
 type cli struct {

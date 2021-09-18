@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/kamontat/fthelper/shared/loggers"
+	"github.com/frysee/fthelper/shared/loggers"
 )
 
 const (
