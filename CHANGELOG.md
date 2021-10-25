@@ -3,6 +3,14 @@
 <a name="unreleased"></a>
 ## [Unreleased]
 
+
+<a name="v5.0.0-bugfix.2"></a>
+## [v5.0.0-bugfix.2] - 2021-09-18
+
+
+<a name="v5.0.0-bugfix.1"></a>
+## [v5.0.0-bugfix.1] - 2021-09-18
+
 ### 2. Performance Improvements
 - **shared:** improve runner to handle disabled in validator function
 - **shared:** remove unused code in runner and make information as data model
@@ -11,6 +19,9 @@
 
 ### 3. Bug Fixes
 - **shared:** remove unused code to reduce code size
+
+### Reverts
+- perf(metric): application will crash if freqtrade http is not available
 
 
 <a name="v5.0.0-beta.12"></a>
@@ -614,7 +625,9 @@
 - **init:** start new project
 
 
-[Unreleased]: https://github.com/frysee/fthelper/compare/v5.0.0-beta.12...HEAD
+[Unreleased]: https://github.com/frysee/fthelper/compare/v5.0.0-bugfix.2...HEAD
+[v5.0.0-bugfix.2]: https://github.com/frysee/fthelper/compare/v5.0.0-bugfix.1...v5.0.0-bugfix.2
+[v5.0.0-bugfix.1]: https://github.com/frysee/fthelper/compare/v5.0.0-beta.12...v5.0.0-bugfix.1
 [v5.0.0-beta.12]: https://github.com/frysee/fthelper/compare/v5.0.0-beta.11...v5.0.0-beta.12
 [v5.0.0-beta.11]: https://github.com/frysee/fthelper/compare/v5.0.0-beta.10...v5.0.0-beta.11
 [v5.0.0-beta.10]: https://github.com/frysee/fthelper/compare/v5.0.0-beta.9...v5.0.0-beta.10
